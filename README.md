@@ -28,29 +28,26 @@ Sheep (7 breeds) - 98.48%
 
 ## Repository Structure
 
-livestock-breed-recognition/
+## 📂 Repository Structure
+
+Image-Based-Breed-Recognition-for-Cattle-Buffalo-and-Sheep-in-India/
 │
 
-├── cow/
+├── notebooks/
 
-│   ├── augment.py   
+│   ├── cow_model.ipynb
 
-│   └── swin_cbam_cow.ipynb    
+│   ├── BUFFALO.ipynb
 
+│   ├── swintransformer.ipynb
+
+│   └── app.py
 │
-├── buffalo/
+├── README.md
 
-│   └── swin_cbam_buffalo.ipynb  
-│
-├── sheep/
+├── LICENSE
 
-│   └── swin_cbam_sheep.ipynb       
-│
-├── gradio_app/
-
-│   └── app.py                      
-│
-└── README.md
+└── .gitignore
 
 ## Getting Started
 
